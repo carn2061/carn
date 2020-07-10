@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>제이쿼리 기말 프로젝트</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  </head>
+  <body>
+
+    <div data-role = "page" id = "main">
+      <div data-role="panel" id = "subject" data-display="overlay" data-theme="b">
+        <h3>교과목 복습.</h3><br>
+        <ul data-role="listview">
+          <li data-icon="delete"><a href="#" data-rel="close">패널 닫기</a></li>
+          <li><a href="http://s.ync.kr/yclass/index.do?SID=ZGxzY2pmMjA2MQ=="> Y_CLASS 바로가기 </a></li>
+        </ul>        <br>
+        <div data-role="collapsible">
+          <h3>jQuery(제이쿼리)</h3>
+          <ul data-role="listview">
+            <li><a href="https://www.youtube.com/watch?v=90wubhfARwk&list=PLgfRAOSrvOCB1Psc7CcwZjofSrrMaTbVJ&index=2">1주차[jQuery소개(1)]</a></li>
+            <li><a href="https://www.youtube.com/watch?v=jymJO-roKfI&list=PLgfRAOSrvOCB1Psc7CcwZjofSrrMaTbVJ&index=5">2주차[jQuery소개(2)]</a></li>
+            <li><a href="https://www.youtube.com/watch?v=AFiGaDcds5I&list=PLgfRAOSrvOCB1Psc7CcwZjofSrrMaTbVJ&index=6">3주차[제이쿼리 기초]</a></li>
+            <li><a href="https://www.youtube.com/watch?v=0_zsNcqaNP0&list=PLgfRAOSrvOCB1Psc7CcwZjofSrrMaTbVJ&index=7">4주차[제이쿼리 기초2]</a></li>
+            <li><a href="https://www.youtube.com/watch?v=y8K7bp5rNdI&list=PLgfRAOSrvOCB1Psc7CcwZjofSrrMaTbVJ&index=9">5주차[제이쿼리 응용1]</a></li>
+            <li><a href="https://www.youtube.com/watch?v=lOU1TKNLRP8&list=PLgfRAOSrvOCB1Psc7CcwZjofSrrMaTbVJ&index=11">6주차[제이쿼리 응용2]</a></li>
+            <li><a href="https://www.youtube.com/watch?v=wvqV_gsJCV8&list=PLgfRAOSrvOCB1Psc7CcwZjofSrrMaTbVJ&index=14">7주차[XML, Ajax]</a></li>
+            <li><a href="https://www.youtube.com/watch?v=rjx-QQqIipE&list=PLgfRAOSrvOCB1Psc7CcwZjofSrrMaTbVJ&index=17">8주차[만들어보기]</a></li>
+            <li><a href="https://www.youtube.com/watch?v=Ud3g8DW1IH4&list=PLgfRAOSrvOCB1Psc7CcwZjofSrrMaTbVJ&index=19">9주차[모바일 웹]</a></li>
+            <li><a href="https://www.youtube.com/watch?v=2s_770jR1hI&list=PLgfRAOSrvOCB1Psc7CcwZjofSrrMaTbVJ&index=21">10주차[jQuery모바일(1)]</a></li>
+            <li><a href="https://www.youtube.com/watch?v=XfRaLSmHjWE&list=PLgfRAOSrvOCB1Psc7CcwZjofSrrMaTbVJ&index=23">10주차[jQuery모바일(2)]</a></li>
+            <li><a href="https://www.youtube.com/watch?v=SVG3sRfPIXM&list=PLgfRAOSrvOCB1Psc7CcwZjofSrrMaTbVJ&index=24">11주차[jQuery모바일(3)]</a></li>
+            <li><a href="https://www.youtube.com/watch?v=iE5IMjH9qGE&list=PLgfRAOSrvOCB1Psc7CcwZjofSrrMaTbVJ&index=27">12주차[jQuery모바일(4)]</a></li>
+            <li><a href="https://www.youtube.com/watch?v=SaPjjLkEyiQ&list=PLgfRAOSrvOCB1Psc7CcwZjofSrrMaTbVJ&index=29">13주차[부트스트랩]</a></li>
+          </ul>
+        </div>
+        <div data-role="collapsible">
+          <h3>Java(자바)</h3>
+          <ul data-role="listview">
+            <li><a href="https://youtu.be/zbsZ7__pZ34">1장</a></li>
+            <li><a href="https://youtu.be/wRVqspAquSg">2장</a></li>
+            <li><a href="https://youtu.be/7VQJ4CDsty8">3장(1)</a></li>
+            <li><a href="https://youtu.be/k-tqPg3-dEs">3장(2)</a></li>
+            <li><a href="https://youtu.be/K3w-gP1OWRk">3장(3)</a></li>
+            <li><a href="https://youtu.be/y2DhqZOY_vA">4장(1)</a></li>
+            <li><a href="https://youtu.be/_Lau3P0r9-4">4장(2)</a></li>
+            <li><a href="https://youtu.be/vAPUiurVU1E">5장(1)</a></li>
+            <li><a href="https://youtu.be/oycbM_eCsUM">5장(2)</a></li>
+            <li><a href="https://youtu.be/h27qw_QT9hg">6장(1)</a></li>
+            <li><a href="https://youtu.be/6cXQAdjXYfE">6장(2)</a></li>
+            <li><a href="https://youtu.be/sCPa46u7S0w">6장(3)</a></li>
+            <li><a href="https://youtu.be/OzO9e6Jnh1M">7장(배열 레포트)</a></li>
+            <li><a href="https://youtu.be/bggDn0vOeMA">7장(객체지향개념)</a></li>
+            <li><a href="https://youtu.be/i03e96PWP0c">8장(클래스[속성])</a></li>
+            <li><a href="https://youtu.be/VJ_aKQUi9cM">9장(클래스[기능])</a></li>
+            <li><a href="https://youtu.be/tH4NQzBq5e0">9장(객체지향)</a></li>
+            <li><a href="https://youtu.be/61LR6Z0WVV4">10장(1)</a></li>
+            <li><a href="https://youtu.be/pCdTc7DFBB0">10장(2)</a></li>
+            <li><a href="https://youtu.be/fYOiXzJJGJ4">10장(생성자)</a></li>
+            <li><a href="https://youtu.be/Q-Y54NSJXp8">10장(오버라이딩)</a></li>
+            <li><a href="https://youtu.be/ZF08VDNynJs">toString()</a></li>
+            <li><a href="https://youtu.be/D4MBfWPO6P8">equals()</a></li>
+            <li><a href="https://youtu.be/mEEBdxuF5Dg">InnerClass</a></li>
+            <li><a href="https://youtu.be/pKCSw5GJHRw">11장(다형성1)</a></li>
+            <li><a href="https://youtu.be/D58pmbciiIs">11장(다형성2)</a></li>
+            <li><a href="https://youtu.be/4lyXT08C0Bk">파라미터의 다형성</a></li>
+            <li><a href="https://youtu.be/zSWinGrJ5eI">11장(추상클래스1)</a></li>
+            <li><a href="https://youtu.be/N-KqeS4DQyM">11장(추상클래스2)</a></li>
+            <li><a href="https://youtu.be/ibaFIawHGfY">11장(추상클래스3)</a></li>
+            <li><a href="https://youtu.be/_pUH8TRpnCk">11장(인터페이스1)</a></li>
+            <li><a href="https://youtu.be/iHyR8Xsgwl4">11장(인터페이스2)</a></li>
+            <li><a href="https://youtu.be/RNWNyYtTZFs">11장(인터페이스3)</a></li>
+            <li><a href="https://youtu.be/p8Ry2Cf2G3A">11장(인터페이스4)</a></li>
+            <li><a href="https://youtu.be/smeGfBQVd3g">11장(인터페이스5)</a></li>
+          </ul>
+        </div>
+        <div data-role="collapsible">
+          <h3>컴퓨터 네트워크</h3>
+          <ul data-role="listview">
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/EdsONo2v5dBMuIlM5GeLH_gBo1cXgbiNaU89IGrGs3jROA">주소/네트워크/토폴로지</a></li>
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/Ec8LoVdeqt5DpYR3-7nmj_8B18CCi417OaQcww979p3LkQ">전송/통신/교환방식(2)</a></li>
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/EX-dTu3Ix1BKlvDpOYEsQksBPp2H-nQwTMDZw8NtbGyqBQ">교환방식(1)/통신모델</a></li>
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/EX9LA8yBBspPrM5yVE-hTKkBRHIHkeEyVF2zmBWxO45ZjA">OSI 7 계층</a></li>
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/EU971Shk0cVCpy32SI24NXkBpobt3fzlL8Ai-wPeSGxFIg">IOS7계층/TCP|IP(1)</a></li>
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/Ea05EKBR761Io58rYnL9GHABkq5FcJ9skSlJt3m9JuFQOg">IOS7계층/TCP|IP(2)</a></li>
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/Edw2_HhU-YhPoPUw2FbU2DcBR1U7pFsAW4ovYHizLk-OTg">주소, 전송매체(1)</a></li>
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/EeXAu2j4WLxBoM5wZRUlEoEBY8CoOLRMonlrOKblWM-7Rg">전송매체(2), 이더넷</a></li>
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/EXIVx__Ui8hNkAQ_Os5ZbOIBWfyQrb7qAdt1gdZnAWfedg">WAN프로토콜, 연동장치 와 주소(1)</a></li>
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/Eazcb6ZCMVRPk8YmWy5W7sYBmNSuitwVa228qniDFftmvA">WAN프로토콜, 연동장치 와 주소(2)</a></li>
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/EabC-R9V6rtDnH05PKc38nMB10zC-fZrFQt5YRZKmknosg?e=1RwM82">IP주소와 클래스</a></li>
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/ERXuHsMDaqJNpWdKTCSP9pwBGFPIYrTbajvhcBgdJRu2IQ">IP주소의 클래스와 특수주소(1)</a></li>
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/EVnK-4k4Ei9HvEJOuPs8tmwB6JfhXfZML3PIaaYp4-Zg-Q">IP주소의 클래스와 특수주소(2)</a></li>
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/EbBEZ-4lQX9Br_Yxpkj5PxgBBscA4iuqHhtsLsuVZ7On6g">IP라우팅 개요(1)</a></li>
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/EXJmaxO3oRlAnRzXWzG6PlMBqUBunyBcv7hgtTG_qnySHA">IP라우팅 개요(2)</a></li>
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/EZ9ko_KrWL5CpB2jBxNIFtUB6Ky5tQDetyzhQRWIFvyY1w">라우팅(1)</a></li>
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/EedREIwlTcRNguo7A5kJbcoBSnTRHiUIOTBqMRgYWwLc8g">라우팅(2)</a></li>
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/EU7c2dvRWK1Pi9qVK5zvVtcBXWEyLD4PHpW6gqHpG-5tXA">서브네팅(1)</a></li>
+            <li><a href="https://knuackr-my.sharepoint.com/:v:/g/personal/leric_knu_ac_kr/EfGzsrJN6sxEg_C6o7z_Dx8B-OjO0m3PtTfz_uM8ZLwrOQ">서브네팅(2)</a></li>
+          </ul>
+        </div>
+        <div data-role="collapsible">
+          <h3>시스템 분석 및 설계</h3>
+          <ul data-role="listview">
+            <li><a href="https://youtu.be/c8-SqomoOg8">3주차(1)</a></li>
+            <li><a href="https://youtu.be/bCmAnXv3HB4">3주차(2)</a></li>
+            <li><a href="https://youtu.be/v2Fx0IFmIK4">4주차(1)</a></li>
+            <li><a href="https://youtu.be/owNxEpSyTEQ">4주차(2)</a></li>
+            <li><a href="https://youtu.be/f6spXzqA6Go">5주차(1)</a></li>
+            <li><a href="https://youtu.be/mJKS9-jpIcg">5주차(2)</a></li>
+            <li><a href="https://youtu.be/d1Nt48qNvmI">6주차(1)</a></li>
+            <li><a href="https://youtu.be/a3V3F_9bQV4">6주차(2)</a></li>
+            <li><a href="https://youtu.be/4t6BXOfFkHA">7주차(1)</a></li>
+            <li><a href="https://youtu.be/aZeR4KrWiYU">7주차(2)</a></li>
+            <li><a href="https://youtu.be/9xou6e1D79Q">9주차(1)</a></li>
+            <li><a href="https://youtu.be/y0-Z6B6FSlE">9주차(2)</a></li>
+            <li><a href="https://youtu.be/yElqffOmr8k">10주차(1)</a></li>
+            <li><a href="https://youtu.be/jVpFqmxQSSw">10주차(2)</a></li>
+            <li><a href="https://youtu.be/0PWbivoJrEE">11주차</a></li>
+            <li><a href="https://youtu.be/kWZ77rKQ6nI">12주차(1)</a></li>
+            <li><a href="https://youtu.be/mTm3qo-UBYA">12주차(2)</a></li>
+            <li><a href="https://youtu.be/0CQYcyIYXJY">13주차(1)</a></li>
+            <li><a href="https://youtu.be/uvAgOeiRDMQ">13주차(2)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div data-role = "header">
+        <h1>기능성(개인용) 웹</h1>
+      </div>
+      <div data-role = "content">
+        <a data-role = "button" href="#download_util" button data-icon = "bars">필수 설치파일 주소모음</a>
+        <a data-role = "button" href="#functionality_web" button data-icon = "gear">기능성 웹 사이트</a>
+        <a data-role = "button" href="#hobby" button data-icon = "heart">취 미 활 동</a>
+        <a data-role = "button" href="#subject" button data-icon = "grid">교과목 복습</a>
+      </div>
+      <div data-role = "footer">
+        <h1>하인철(1705068)</h1>
+      </div>
+    </div>
+
+    <div data-role = "page" id = "download_util">
+      <div data-role = "header">
+        <h1>필수 설치파일 주소모음</h1>
+        <a href= "#main" class="ui-btn-left" button data-icon = "back">메인으로</a>
+        <div data-role = "navbar">
+          <ul>
+            <li><a href="#download_util" class = "ui-btn-active">유틸리티</a></li>
+            <li><a href="#download_study">학업</a></li>
+            <li><a href="#download_etc">기타 오락</a></li>
+            <li><a href="#download_browser">브라우저</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div data-role = "content">
+        <ul data-role="listview">
+          <li><a href="https://software.naver.com/software/summary.nhn?softwareId=MFS_100211"><img src="img/v3.jpg">안랩(V3)_백신 프로그램</a></li>
+          <li><a href="https://software.naver.com/software/summary.nhn?softwareId=GWS_000083"><img src="img/kakao.png">카카오톡</a></li>
+          <li><a href="https://www.bandisoft.com/bandizip/#"><img src ="img/bandizip.jpg">반디집_압축 프로그램</a></li>
+          <li><a href="https://www.hancom.com/main/main.do"><img src="img/HAN.jpg">한컴오피스</a></li>
+          <li><a href="https://www.nvidia.com/ko-kr/"><img src ="img/NVIDIA.png">엔비디아_<br/>그래픽카드 드라이버</a></li>
+          <li><a href="https://www.java.com/ko/"><img src ="img/java.png">Java_유틸리티 프로그램</a></li>
+          <li><a href="#"><img src ="img/papago.jpg">번역기(파파고)</a></li>
+          <li><a href="https://www.altools.co.kr/Main/Default.aspx"><img src ="img/ALTools.jpg">알툴즈_도구모음</a></li>
+        </ul>
+      </div>
+      <div data-role = "footer" class = "ui-bar">
+        <div data-role = "controlgroup" data-type = "horizontal">
+          <a href="#functionality_web"> 기능성 웹 사이트 </a>
+          <a href="#hobby"> 취 미 활 동 </a>
+        </div>
+      </div>
+    </div>
+
+    <div data-role = "page" id = "download_study">
+      <div data-role = "header">
+        <h1>필수 설치파일 모음</h1>
+        <a href= "#main" class="ui-btn-left" button data-icon = "back">메인으로</a>
+        <div data-role = "navbar">
+          <ul>
+            <li><a href="#download_util">유틸리티</a></li>
+            <li><a href="#download_study" class = "ui-btn-active">학업</a></li>
+            <li><a href="#download_etc">기타 오락</a></li>
+            <li><a href="#download_browser">브라우저</a></li>
+          </ul>
+        </div>
+      </div>
+      <div data-role = "content">
+        <ul data-role ="listview">
+            <li><a href="https://visualstudio.microsoft.com/ko/"><img src="img/visual.jpg">비주얼 스튜디오</a></li>
+            <li><a href="https://www.eclipse.org/"><img src="img/eclipse.jpg">이클립스</a></li>
+            <li><a href="https://atom.io/"><img src="img/atom.png">아톰</a></li>
+            <li><a href="https://www.mysql.com/"><img src="img/mySQL.png">mySQL</a></li>
+            <li><a href="https://www.oracle.com/tools/downloads/sqldev-v192-downloads.html"><img src="img/sql+.jpg">SQL+</a></li>
+            <li><a href="http://en.exerd.com/"><img src="img/eXERD.jpg">eXERD</a></li>
+            <li><a href="https://jquery.com/"><img src="img/jQuery">jQuery</a></li>
+        </ul>
+      </div>
+      <div data-role = "footer" class = "ui-bar">
+        <div data-role = "controlgroup" data-type = "horizontal">
+          <a href="#functionality_web"> 기능성 웹 사이트 </a>
+          <a href="#hobby"> 취 미 활 동 </a>
+        </div>
+      </div>
+    </div>
+
+    <div data-role = "page" id = "download_etc">
+      <div data-role = "header">
+        <h1>필수 설치파일 모음</h1>
+        <a href= "#main" class="ui-btn-left" button data-icon = "back">메인으로</a>
+        <div data-role = "navbar">
+          <ul>
+            <li><a href="#download_util">유틸리티</a></li>
+            <li><a href="#download_study">학업</a></li>
+            <li><a href="#download_etc" class = "ui-btn-active">기타 오락</a></li>
+            <li><a href="#download_browser">브라우저</a></li>
+          </ul>
+        </div>
+      </div>
+      <div data-role = "content">
+        <ul data-role ="listview">
+          <li><a href="https://www.origin.com/kor/ko-kr/store"><img src="img/origin.jpg">오리진_게임 플랫폼</a></li>
+          <li><a href="https://store.steampowered.com/"><img src="img/steam.jpg">스팀_게임 플렛폼</a></li>
+          <li><a href="https://www.blizzard.com/ko-kr/"><img src="img/blizzard.png">블리자드_게임 플렛폼</a></li>
+          <li><a href="https://www.minecraft.net/ko-kr/"><img src="img/mojang.png">모장</a></li>
+          <li><a href="https://kr.leagueoflegends.com/ko-kr/"><img src="img/lol.jpg">리그오브 레전드</a></li>
+          <li><a href="https://discord.com/new"><img src="img/discord.jpg">디스코드_음성채팅 프로그램</a></li>
+        </ul>
+      </div>
+      <div data-role = "footer" class = "ui-bar">
+        <div data-role = "controlgroup" data-type = "horizontal">
+          <a href="#functionality_web"> 기능성 웹 사이트 </a>
+          <a href="#hobby"> 취 미 활 동 </a>
+        </div>
+      </div>
+    </div>
+
+    <div data-role = "page" id = "download_browser">
+      <div data-role = "header">
+        <h1>필수 설치파일 모음</h1>
+        <a href= "#main" class="ui-btn-left" button data-icon = "back">메인으로</a>
+        <div data-role = "navbar">
+          <ul>
+            <li><a href="#download_util">유틸리티</a></li>
+            <li><a href="#download_study">학업</a></li>
+            <li><a href="#download_etc">기타 오락</a></li>
+            <li><a href="#download_browser" class = "ui-btn-active">브라우저</a></li>
+          </ul>
+        </div>
+      </div>
+      <div data-role = "content">
+        <ul data-role ="listview">
+          <li><a href="https://www.google.com/chrome/"><img src="img/chrome.jpg">구글_크롬</a></li>
+          <li><a href="https://www.mozilla.org/ko/firefox/new/?redirect_source=firefox-com"><img src="img/firefox.jpg">모질라_파이어 폭스</a></li>
+          <li><a href="https://www.apple.com/kr/safari/"><img src="img/safari.jpg">애플_사파리</a></li>
+          <li><a href="https://www.opera.com/ko"><img src="img/opera.jpg">오페라</a></li>
+          <li><a href="https://www.amazon.com/"><img src="img/amazon.png">아마존</a></li>
+        </ul>
+      </div>
+      <div data-role = "footer" class = "ui-bar">
+        <div data-role = "controlgroup" data-type = "horizontal">
+          <a href="#functionality_web"> 기능성 웹 사이트 </a>
+          <a href="#hobby"> 취 미 활 동 </a>
+        </div>
+      </div>
+    </div>
+
+    <div data-role = "page" id = "functionality_web">
+      <div data-role = "header">
+        <h1>기능성 웹 사이트</h1>
+        <a href= "#main" class="ui-btn-left" button data-icon = "back">메인으로</a>
+      </div>
+      <div data-role = "content">
+        <div class="ui-body ui-body-a">
+          <h3><a href="https://www.ascii-art-generator.org/"> Ascii Art Creator </a></h3>
+          <p>그림을 텍스트로 바꿔주는 사이트.</p>
+        </div>
+        <div class="ui-body ui-body-a">
+          <h3><a href="https://ezgif.com/split"> Split GIF image in frames </a></h3>
+          <p>GIF(움직이는 그림)를 여러개의 단일그림으로 쪼개어 주는 사이트.</p>
+        </div>
+        <div class="ui-body ui-body-a">
+          <h3><a href="https://getbootstrap.com/"> Bootstrap </a></h3>
+          <p>웹 사이트나 웹 응용 프로그램을 작성하기 위해 사용하는 무료 소프트웨어 도구 모음 사이트.</p>
+        </div>
+        <div class="ui-body ui-body-a">
+          <h3><a href="https://coronaboard.kr/"> CoronaBoard </a></h3>
+          <p>코로나 바이러스 실시간 현황을 알려주는 사이트.</p>
+        </div>
+        <div class="ui-body ui-body-a">
+          <h3><a href="http://www.missed-call.com/"> Spam Number Database </a></h3>
+          <p>스팸 전화번호 조회 사이트.</p>
+        </div>
+        <div class="ui-body ui-body-a">
+          <h3><a href="http://bbom.org/tools/ani.html"> bbom </a></h3>
+          <p>Split GIF image in frames 과 반대로 이미지 파일을 GIF파일로 변환시켜주는 사이트.</p>
+        </div>
+        <div class="ui-body ui-body-a">
+          <h3><a href="https://www.remove.bg/"> remove </a></h3>
+          <p>포토샵 없이 이미지 뒷배경 지워주는 사이트.</p>
+        </div>
+        <div class="ui-body ui-body-a">
+          <h3><a href="https://augustambience.com/"> augustambience </a></h3>
+          <p>집중력을 높이는 백색소음 : 풀 벌레, 매미, 새 우는 소리 등 자연의 소리를 듣는 사이트.</p>
+        </div>
+      </div>
+      <div data-role = "footer" class = "ui-bar">
+        <div data-role = "controlgroup" data-type = "horizontal">
+          <a href="#download_util"> 필수 설치파일 </a>
+          <a href="#hobby"> 취 미 활 동 </a>
+        </div>
+      </div>
+    </div>
+
+    <div data-role = "page" id = "hobby">
+      <div data-role = "header">
+        <h1> 취 미 활 동 </h1>
+        <a href= "#main" class="ui-btn-left" button data-icon = "back">메인으로</a>
+      </div>
+      <div data-role = "content">
+
+        <div data-role="collapsible-set">
+          <div data-role="collapsible">
+            <h3> 음원 사이트 </h3>
+            <ul data-role ="listview">
+              <li><a href="https://www.melon.com/"><img src ="img/melon.png"> 멜론 </a></li>
+              <li><a href="https://www.music-flo.com/"><img src ="img/FLO.png"> 플로 </a></li>
+              <li><a href="https://www.genie.co.kr/"><img src ="img/genie.png"> 지니뮤직 </a></li>
+              <li><a href="https://music.bugs.co.kr/"><img src ="img/bugs.jpg"> 벅스뮤직 </a></li>
+              <li><a href="https://music.youtube.com/tasteprofile"><img src ="img/youtube.png"> 유튜브 뮤직</a></li>
+            </ul>
+          </div>
+          <div data-role="collapsible">
+            <h3>유튜브 채널</h3>
+            <div data-role="collapsible-set">
+              <div data-role="collapsible">
+                <h3>음악/댄스</h3>
+                <ul data-role="listview">
+                  <li><a href="https://www.youtube.com/channel/UCpS4_lcap-K-x7DkHbUEfbw"><img src="img/ILPM.jpg">음악 외국: 외국노래</a></li>
+                  <li><a href="https://www.youtube.com/channel/UCaZhnsQ36GIYYQ1sbxKeMDg"><img src="img/MusicIsMyLife.jpg">Music is my life</a></li>
+                  <li><a href="https://www.youtube.com/channel/UCoDZIZuadPBixSPFR7jAq2A"><img src="img/MusicStore.jpg">Music Store</a></li>
+                  <li><a href="https://www.youtube.com/channel/UCmv1CLT6ZcFdTJMHxaR9XeA"><img src="img/PTX.jpg">PTXofficial[펜타토닉스]</a></li>
+                  <li><a href="https://www.youtube.com/channel/UCu-lrTSBLPGUDmdJNTw2zbw"><img src="img/DJ_Bear.jpg">Dj Bear - EDM 음악</a></li>
+                  <li><a href="https://www.youtube.com/channel/UCEdvpU2pFRCVqU6yIPyTpMQ"><img src="img/Marshmello.jpg">Marshmello</a></li>
+                  <li><a href="https://www.youtube.com/channel/UCOZ1bDMkyW0uT73crX2S47A"><img src="img/simba.jpg">춤선생SIMBA</a></li>
+                </ul>
+              </div>
+              <div data-role="collapsible">
+                <h3>뉴스/이슈</h3>
+                <ul data-role="listview">
+                  <li><a href="https://www.youtube.com/channel/UClE2hKVqycauBKmXwawizEg"><img src="img/PPKKa.jpg">뻑가[PPKKa]</a></li>
+                  <li><a href="https://www.youtube.com/channel/UCZ0bi2aVJngKLwFTU5g_fLQ"><img src="img/Gsic.jpg">G식백과</a></li>
+                  <li><a href="https://www.youtube.com/channel/UCH5U89kvHrVxxS80xpoOydw"><img src="img/HANMUN.jpg">한문철TV</a></li>
+                  <li><a href="https://www.youtube.com/channel/UC63J0Q5huHSlbNT3KxvAaHQ"><img src="img/pope.jpg">포프TV</a></li>
+                </ul>
+              </div>
+              <div data-role="collapsible">
+                <h3>게임/취미</h3>
+                <ul data-role="listview">
+                  <li><a href="https://www.youtube.com/channel/UCg-p3lQIqmhh7gHpyaOmOiQ"><img src="img/UK.jpg">영국남자</a></li>
+                  <li><a href="https://www.youtube.com/channel/UCwl9OALh8IMwSv_kFdHlMDA"><img src="img/D.jpg">다흑님</a></li>
+                  <li><a href="https://www.youtube.com/channel/UCd4FmcWIVdWAy0-Q8OJBloQ"><img src="img/sanago.jpg">사나고</a></li>
+                  <li><a href="https://www.youtube.com/channel/UCHpIHu4LzmNuD8bsE6mZLSA"><img src="img/YAN.jpg">영알남</a></li>
+                  <li><a href="https://www.youtube.com/channel/UChbE5OZQ6dRHECsX0tEPEZQ"><img src="img/JJU.jpg">장삐쭈</a></li>
+                  <li><a href="https://www.youtube.com/channel/UCOaUB8RzbLXB7QZtCmMO-8A"><img src="img/metal.jpg">메탈킴</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div data-role = "footer" class = "ui-bar">
+        <div data-role = "controlgroup" data-type = "horizontal">
+          <a href="#download_util"> 필수 설치파일 </a>
+          <a href="#functionality_web"> 기능성 웹 사이트 </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
